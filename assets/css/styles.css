@@ -4,6 +4,7 @@
 html, body {
   height: 100%;
   margin: 0;
+  background: url('../images/background.png');
 }
 body{
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -51,6 +52,7 @@ h5{
 	height: 80px;
 	width: 100%;
 	margin-bottom: 20px;
+	background: white;
 }
 .my-name{
 	height: 80px;
@@ -75,7 +77,8 @@ h5{
 }
 .main-content, .contact-me{
 	padding: 30px;
-	border: 1px solid gray;
+	border: 1px solid #ccc;
+	background: white;
 }
 .main-content{
 	width: 650px;
@@ -102,6 +105,9 @@ h5{
 .contact-me__image{
 	width: 60px;
 	height: 60px;
+}
+.contact-me__image:hover{
+	opacity: 0.9;
 }
 .contact-me__image-stackoverflow{
 	width: 55px;
